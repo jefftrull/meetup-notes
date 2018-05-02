@@ -35,8 +35,11 @@
     :PROPERTIES:
     :BEAMER_env: frame
     :END:
+**** sponsorbackground                                     :B_beamercolorbox:
+     :PROPERTIES:
+     :BEAMER_env: beamercolorbox
+     :END:
 [[file:../images/triplebyte_logo.png]]
-Thank you, Triplebyte.
 # JET: I hacked the output .tex file to make this less ugly... in the org generated pdf you cannot see the company name
 * Presenter
 *** Daniel Colascione
@@ -67,4 +70,5 @@ Dan's slides may be found at https://dancol.org/pdumperpres.pdf
 #+BEAMER_HEADER: \setbeamerfont{section in sidebar}{size=\scriptsize}
 #+BEAMER_HEADER: \setbeamerfont{subsection in sidebar}{size=\tiny}
 
-
+# black background so Triplebyte logo looks right
+#+LATEX_HEADER: \setbeamercolor{sponsorbackground}{bg=black,fg=black}
